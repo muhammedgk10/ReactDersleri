@@ -8,10 +8,10 @@ const FetchData = () => {
 
     return (
         <>
-            <h1>API'den Veri Çekme</h1>
-            <ul>
+            <h1 className="useFetch_heading">API'den Veri Çekme</h1>
+            <ul className="list_data_manin">
                 {data && data.map((e,index)=>(
-                    <li key={index}>
+                    <li key={index}className="list_data_">
                         <h3>{e.name}</h3>
                         <p>
                             <strong>Önemi:</strong>
