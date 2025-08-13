@@ -1,0 +1,55 @@
+/* Genel sayfa stili */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Başlık */
+h1 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+/* Liste düzeni */
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* Liste elemanları */
+li {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+/* Alt başlıklar */
+h3 {
+  margin: 0;
+  color: #2563eb;
+  font-size: 1.2rem;
+}
+
+/* Paragraflar */
+p {
+  margin: 5px 0;
+}
+
+strong {
+  color: #111827;
+}
